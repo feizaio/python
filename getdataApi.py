@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # MongoDB连接配置
-MONGO_HOST = '10.16.30.200'
+MONGO_HOST = 'xx.xx.xx.xx'
 MONGO_PORT = 27018
 MONGO_DB = 'userCenter'
 COLLECTION_NAME = 'userOperationLog'
