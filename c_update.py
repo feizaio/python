@@ -21,7 +21,7 @@ match = re.search(version_pattern, version_file_content)
 
 if match:
     old_version_number = match.group(1)
-
+# Jenkins变量
 new_version_number = os.environ.get('版本号') 
 
 version_pattern = r"#define TXE_VERSION_REVISION (\d+)"
